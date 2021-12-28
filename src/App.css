@@ -1,38 +1,71 @@
-.App {
+.resultstSMText p {
+  margin: 0;
+}
+.serviceBox { transition: all 0.4s ease; overflow: hidden; }
+.serviceBox::after { transition: all 0.4s ease;  }
+.serviceBox:hover::after { transform: scale(1.2); transition: all 0.4s ease;  }
+.navbar-light .navbar-nav .nav-link.btn-dark {
+  font-size: 20px !important;
+  color: #fff !important;
+  height: 56px !important;
+  font-weight:  500;
+  line-height: 36px;
+  border: 2px solid #232322;
+}
+.navbar-light .navbar-nav .nav-link.btn-dark:hover {
+  color: #232322 !important;
+}
+.infServeOuter { margin-bottom: 30px; }
+.infServeOuter h2 { font-size: 30px; color: #000; margin: 0px 0 15px 0; }
+.infServeOuter p { font-size: 16px; color: #000; margin-bottom: 40px; }
+.infServeOuter img { max-width: 100%; }
+
+.indTabOuter { background: #fff; border-radius: 10px; padding: 25px; }
+.indTabOuter.nav-pills .nav-item { margin-bottom: 10px; }
+.indTabOuter.nav-pills .nav-link, .indTabOuter.nav-pills .show>.nav-link { color: #000; display: inline-block; border-radius: 50px; font-size: 18px; }
+.indTabOuter.nav-pills .nav-link:hover { cursor: pointer; }
+.indTabOuter.nav-pills .nav-link.active, .indTabOuter.nav-pills .show>.nav-link {
+  color: #000;
+  background-color: #fecd00; 
+}
+.indTabOuter.nav-pills .nav-link:hover {
+  color: #000;
+  background-color: #FAFCFF; 
+}
+.titleOuter { position: relative; padding-left: 20px; }
+.indWeServe { padding: 40px 0; }
+.howWork {
+  padding: 100px 0 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+  padding: 8px 15px !important;
+}
+.featureProjects {
+  padding: 100px 0 20px 0;
+}
+.resultsSpeak {
+  padding: 80px;
+  width: calc(100% - 20%);
+  margin-left: 15%;
+}
+
+.ourCulture::before {
+  height: 55%;
+}
+.posRel { position: relative; }
+.CVBHeadingTOpPadding { padding-top: 110px; }
+
+.scrollOuter { display: flex; }
+.scrollOuter .articleBox { min-width: 420px; padding: 15px; }
+.scrollContainer .ScrollbarsCustom-Track { width: 500px !important; left:50%; margin-left: -250px; margin: 0 0 20px 0; }
+.verticleScrollBarWit .ScrollbarsCustom-Track { width: 2px !important; }
+
+
+.panel {
+  height: 100vh;
+  width: 100vw;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.reviewBox.lightReview:hover { background: #fff; box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1); }
+.verifiedReviews .ScrollbarsCustom-Content { padding: 0 15px !important; } 

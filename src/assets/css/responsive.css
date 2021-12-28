@@ -1,0 +1,116 @@
+
+@media screen and (min-width:992px) and (max-width:1365px){
+    .ftBlogRight {
+        width: calc(67% - 0%);
+        padding-right: 0 !important;
+        padding: 15px;
+    }
+
+    .ftBlogLeft {
+        width: calc(43% - 0%);
+        padding-left: 4%;
+        padding-right: 15px;
+    }
+
+    .verifiedReviews {
+        padding:80px 0 0 0;
+    }
+    .latestArticles {
+        padding: 40px;
+        width: calc(100% - 12%);
+        margin-left: 12%;
+        margin-top: 30px;
+    }
+    .resultsSpeak {
+        padding: 80px;
+        width: calc(100% - 10%);
+        margin-left: 6%;
+    }
+
+    .resultsTitle {
+        position: absolute;
+        right: -130px;
+        top: 185px;
+        transform: rotate(-90deg);
+    }
+    .resultstSMText p {font-size: 42px; }
+    .differentApproach {
+        padding: 80px 0 0 0;
+    }
+    .mainBlog {
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .serviceBlog {
+        padding: 100px 20px 30px 20px;
+        width: calc(100% - 12%);
+        margin-left: 12%;
+    }
+
+    .mainBlog h1 {
+        color: #333;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 83px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .mainBlog h1 {font-size: 52px;line-height: 60px;margin-bottom: 20px;}
+    .btn-border {min-width: 210px;padding: 15px 8px;}
+
+    .mainBlog { margin-bottom: 80px; }
+    .serviceBlog { padding: 30px;width: 100%; margin-left: 0; }
+    .serviceBlog h2 {
+        font-size: 42px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .serviceBox { min-height: 170px;margin-bottom: 30px; }    
+    .serviceBlog .serviceTitle {
+        position: absolute; left: 0; top: 0; transform: rotate(-0deg);
+    }
+
+     .ftBlogLeft { width: 100%;padding-left: 0;padding-right: 0;}
+     footer {padding: 15px; }
+     .ftBlogRight { width: 100%; padding-right: 0 !important; background: #232322;padding:30px; margin-top: 30px;}
+    .ftMainDiv {display: block; margin-bottom: 0; }  
+    .resultsSpeak { padding: 0; width: 100%; margin-left: 0; margin-top: 20px; }  
+    .resultsLeftIcon {margin-top: 20px; }  
+}
+
+@media screen and (max-width: 767px){
+    body{padding:15px;}
+    .navbar-light { padding-top: 15px;}
+    .mainBlog { text-align: center; margin-bottom: 110px; }
+    .mainBlog h1 {font-size: 60px; line-height: 65px; margin-bottom: 20px; }
+    .mainBlog p { font-size: 18px; line-height: 32px; margin-bottom: 20px; }
+    .mainBlog img{margin-top: 40px;}
+    .serviceTitle { position: absolute; left: 15px; top: -50px; transform: rotate(-0deg); }
+    .serviceBlog { padding: 60px 20px 0px 20px; width: calc(100% - 0%); margin-left: 0; }
+    .serviceBlog h2 {font-size: 60px; line-height: 65px; margin-bottom: 20px;}
+    .ml-30 {margin-left: 0; }
+    .serviceBox { margin-bottom: 50px; text-align: center; min-height: 170px; }
+    .serviceBlog p {line-height: 32px; margin-bottom: 14px;}
+    .serviceBox p { font-size: 22px !important; }
+    .serviceBox p span {display: none;}
+    .headingTitle { margin-bottom: 30px;}
+    .differentApproach { padding: 80px 0; }    
+    .featureProjects { padding: 50px 0; margin-bottom: 30px; }
+    .featureImg img {margin-bottom: 30px;}
+    .resultsSpeak { padding: 0; width: 100%; margin-left: 0; }
+    .resultsLeftIcon {margin-bottom: 30px;}
+    .resultsSpeak .resultsTitle { position: relative; right: 0;  top: 0; transform: rotate(-0deg);  padding: 0 15px;}
+    .latestArticles { padding: 15px; width: auto; margin-left: 0; margin-top: 80px;}
+    .latestArticles .articlesTitle { position: relative;  left: 0; top: 0; transform: rotate(-0deg); }
+    .verifiedReviews { padding: 80px 0 0 0; }
+    .ourClientBlog .col {flex: max-content;}
+    .ourClients { padding:80px 0 0 0;}
+    .ftMainDiv {display: block; margin-bottom: 0; }
+    .ftBlogLeft { width: 100%; padding-left: 0; padding-right: 0; }
+    .ftBlogRight { width: 100%; background: #232322; padding:30px !important; margin-top: 30px; }
+    footer { padding: 80px 00px 0;  }   
+   .footerCopyRight p{margin-bottom: 0;}
+}
