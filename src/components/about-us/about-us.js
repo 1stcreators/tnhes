@@ -11,14 +11,14 @@ function AboutUs() {
   return (
     <div>
 
-<section class="mainBlog">
-     <div class="container">
-       <div class="row">
-         <div class="col-md-6">
+<section className="mainBlog">
+     <div className="container">
+       <div className="row">
+         <div className="col-md-6">
             <h1>Want to know about us ?</h1>
             <p>All-in-one-shop, this is a way to save your time and money. Although you must already have an objection to it:</p>
          </div>
-         <div class="col-md-6">
+         <div className="col-md-6">
            <img src={bannerbg} alt="" />
          </div>
        </div>

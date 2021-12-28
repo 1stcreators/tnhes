@@ -3,9 +3,26 @@ import logo from '../../src/assets/images/logo.svg';
 import {Link} from "react-router-dom";
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 function Header() {
+
+         // Sticky Menu Area
+        // useEffect(() => {
+        //     window.addEventListener('scroll', isSticky);
+        //     return () => {
+        //         window.removeEventListener('scroll', isSticky);
+        //     };
+        // });
+    
+               
+        /* Method that will fix header after a specific scrollable */
+               const isSticky = (e) => {
+                    const header = document.querySelector('.header-section');
+                    const scrollTop = window.scrollY;
+                    scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+                };
+
   return (
 
-    <header>
+    <header className='header-section' >
     {/* <nav className="navbar navbar-expand-lg navbar-light bg-light">
        <div className="container">
          <a className="navbar-brand" href="#"><img src={logo} alt="" /></a>

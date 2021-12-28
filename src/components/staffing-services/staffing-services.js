@@ -12,24 +12,24 @@ function StaffingServices() {
     <div>
 
 
-<section class="mainBlog">
-     <div class="container">
-       <div class="row">
-         <div class="col-md-6">
+<section className="mainBlog">
+     <div className="container">
+       <div className="row">
+         <div className="col-md-6">
             <h1>Provide staff solutions</h1>
             <p>TalentPro provides one of the most advanced and professional staffing solutions in India for temporary, regular staffing. Our access to a large database of staffing.</p>
          </div>
-         <div class="col-md-6 text-center">
+         <div className="col-md-6 text-center">
            <img src={providestaff} alt=""/>
          </div>
        </div>
      </div>
    </section>
 
-   <section class="indiaBestTemorary">
-          <div class="container">     
-      <div class="row">
-        <div class="col-md-12 text-center"> 
+   <section className="indiaBestTemorary">
+          <div className="container">     
+      <div className="row">
+        <div className="col-md-12 text-center"> 
              <h4>India’s Best Temporary Staffing Services</h4>
              <p>TalentPro provides one of the most advanced and professional staffing solutions in India for temporary, regular staffing. 
                Our access to a large database of staffing resources is backed by time-tested HR management system that makes your deployment 
@@ -43,10 +43,10 @@ function StaffingServices() {
      </div>
    </section>
 
-   <section class="listServiceBox">
-    <div class="container">     
-    <div class="row whiteBg">
-      <div class="col-md-6"> 
+   <section className="listServiceBox">
+    <div className="container">     
+    <div className="row whiteBg">
+      <div className="col-md-6"> 
         <ul>
           <li><span></span> You can be at peace concentrate on business activities that are critical and important for your business.</li>
           <li><span></span>TalentPro has been one of the well-known staffing companies in India, and we have been around for over 19 years now.</li>
@@ -58,7 +58,7 @@ function StaffingServices() {
         </ul>
         </div>
 
-        <div class="col-md-6"> 
+        <div className="col-md-6"> 
           <ul>
             <li><span></span> All staffing related tasks like recruitment & selection, salaries, payments, exits are all handled by us.</li>
             <li><span></span> You can add, increase or reduce your human resources numbers at any time without having to worry about formalities.</li>
@@ -73,15 +73,15 @@ function StaffingServices() {
     </div>
     </section>
 
-    <section class="listServiceBox ">
-      <div class="container">
-        <div class="row">
-        <div class="col-md-6">
-          <div class="featureContnt">
-         <h2 class="mb-4">Structured Staffing Solutions or Third Party Payroll Services</h2>
+    <section className="listServiceBox ">
+      <div className="container">
+        <div className="row">
+        <div className="col-md-6">
+          <div className="featureContnt">
+         <h2 className="mb-4">Structured Staffing Solutions or Third Party Payroll Services</h2>
          <p>The way we have structured our staffing solutions, all you have to do is to give us a green signal, and you will find your productivity increasing overnight.
             Our proven recruitment, payroll and compliance practices scale with your business and deliver benchmarked staffing solutions for you.</p>
-            <ul class="p-0">
+            <ul className="p-0">
               <li><span></span> Easily understandable processes and simple SLAs that make it easy for you to come onboard.</li>
               <li><span></span> Seasoned recruitment team that can quickly source, evaluate, select, and form a team for you</li>
               <li><span></span> Large and specialized staffing database for FMCG, FMCD, Retail, Telecom and Finance. We have your staff waiting for you.</li>
@@ -94,8 +94,8 @@ function StaffingServices() {
         </div>  
        </div>
 
-        <div class="col-md-6">
-          <div class="featureImg">
+        <div className="col-md-6">
+          <div className="featureImg">
           <img src={featureprojects} />
         </div>
          </div>
@@ -104,23 +104,23 @@ function StaffingServices() {
         </section>
 
 
-        <section class="listServiceBox pb-0">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="featureImg">
+        <section className="listServiceBox pb-0">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="featureImg">
                 <img src={featureprojects} />
               </div>
                </div>
-            <div class="col-md-6">
-              <div class="featureContnt">
-             <h2 class="mb-4">India's Best Temporary Staffing Services</h2>
+            <div className="col-md-6">
+              <div className="featureContnt">
+             <h2 className="mb-4">India's Best Temporary Staffing Services</h2>
              <p>TalentPro specializes in temporary staffing. Why should you think of temporary staffing solutions as an option for your business or organization? Read on, 
                and you may be amazed. Temporary staffing means, TalentPro provides you the human resources you need for a specified period. However, the employees continue 
                to be on our payroll, and they work for you. We will take care of the rest like identifying the kind of employees you need and going through the hiring formalities 
                and documentation. All you need to do is let them work for you. 
                Once their job or requirement is over, you inform us, and we will take care of their exit. It is as simple as that.</p>
-                <ul class="p-0">
+                <ul className="p-0">
                   <li><span></span> Looking for a way to reduce your administrative costs and liabilities associated with permanent employees?</li>
                   <li><span></span> Looking to migrate employees from existing company rolls?</li>
                   <li><span></span> Do you need human resources on a flexible period basis that can add to your margins, profits, and bottom line?</li>
@@ -134,61 +134,61 @@ function StaffingServices() {
         </section>
 
 
-        <section class="serviceHighlights darkBg relative pr-0">
-          <div class="serviceTitle">
-            <div class="headingTitle text-end"><span class="borderV"></span>Our IT Services </div>
+        <section className="serviceHighlights darkBg relative pr-0">
+          <div className="serviceTitle">
+            <div className="headingTitle text-end"><span className="borderV"></span>Our IT Services </div>
           </div>
-          <div class="container-full ml-30">
-            <div class="row">
-              <div class="col-md-5">          
-                 <h2 class="mb-5">Service Highlights</h2>                
+          <div className="container-full ml-30">
+            <div className="row">
+              <div className="col-md-5">          
+                 <h2 className="mb-5">Service Highlights</h2>                
 
-                 <div class="highlightDetailsBox">
-                  <div class="highlightNumberBox"><span>1</span></div>
-                  <div class="highlightTextBox">
+                 <div className="highlightDetailsBox">
+                  <div className="highlightNumberBox"><span>1</span></div>
+                  <div className="highlightTextBox">
                   <p>Taking ownership, responsibility, and accountability over a key part of the work on a small team</p>
                   </div>            
                 </div>
 
-                <div class="highlightDetailsBox">
-                  <div class="highlightNumberBox"><span>2</span></div>
-                  <div class="highlightTextBox">
+                <div className="highlightDetailsBox">
+                  <div className="highlightNumberBox"><span>2</span></div>
+                  <div className="highlightTextBox">
                   <p>Forming well-informed opinions about what to do and can build consensus by sharing your findings with others</p>
                   </div>            
                 </div>
 
-                <div class="highlightDetailsBox">
-                  <div class="highlightNumberBox"><span>3</span></div>
-                  <div class="highlightTextBox">
+                <div className="highlightDetailsBox">
+                  <div className="highlightNumberBox"><span>3</span></div>
+                  <div className="highlightTextBox">
                   <p>Creating clean work (e.g., code, design, product) and helping to up the standards</p>
                   </div>            
                 </div>
 
-                <div class="highlightDetailsBox">
-                  <div class="highlightNumberBox"><span>4</span></div>
-                  <div class="highlightTextBox">
+                <div className="highlightDetailsBox">
+                  <div className="highlightNumberBox"><span>4</span></div>
+                  <div className="highlightTextBox">
                   <p>Being challenged and using creative problem solving to overcome hurdles</p>
                   </div>            
                 </div>
 
-                <div class="highlightDetailsBox">
-                  <div class="highlightNumberBox"><span>5</span></div>
-                  <div class="highlightTextBox">
+                <div className="highlightDetailsBox">
+                  <div className="highlightNumberBox"><span>5</span></div>
+                  <div className="highlightTextBox">
                   <p>Getting the details right while pulling up to the big picture and can balance tradeoffs for both speedy and quality execution</p>
                   </div>            
                 </div>
 
-                <div class="highlightDetailsBox">
-                  <div class="highlightNumberBox"><span>6</span></div>
-                  <div class="highlightTextBox">
+                <div className="highlightDetailsBox">
+                  <div className="highlightNumberBox"><span>6</span></div>
+                  <div className="highlightTextBox">
                   <p>Working in distributed teams</p>
                   </div>            
                 </div>
                    
       
               </div>
-              <div class="col-md-7 pr-0">
-                <div class="aboutUsImg"><img src={servicehighlights} alt="" /></div>
+              <div className="col-md-7 pr-0">
+                <div className="aboutUsImg"><img src={servicehighlights} alt="" /></div>
               </div>
             </div>
           </div>
