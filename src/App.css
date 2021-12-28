@@ -69,3 +69,6 @@
 
 .reviewBox.lightReview:hover { background: #fff; box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1); }
 .verifiedReviews .ScrollbarsCustom-Content { padding: 0 15px !important; } 
+.header-section{ transition: 0.5s ease; }
+.header-section.is-sticky { transition: 0.5s ease; position: fixed; top: 0; width: 100%; left: 0px; background: #fff; z-index: 9999; box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1); }
+.header-section.is-sticky .navbar-light { padding-top: 8px;transition: 0.5s ease; }

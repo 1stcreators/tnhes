@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from "react"
 import logo from '../../src/assets/images/logo.svg';
 import {Link} from "react-router-dom";
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 function Header() {
 
          // Sticky Menu Area
-        // useEffect(() => {
-        //     window.addEventListener('scroll', isSticky);
-        //     return () => {
-        //         window.removeEventListener('scroll', isSticky);
-        //     };
-        // });
+         useEffect(() => {
+             window.addEventListener('scroll', isSticky);
+             return () => {
+                 window.removeEventListener('scroll', isSticky);
+             };
+         });
     
                
         /* Method that will fix header after a specific scrollable */
