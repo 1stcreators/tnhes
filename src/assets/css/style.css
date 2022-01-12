@@ -299,9 +299,11 @@ bold;text-align: center;line-height: 80px;width: 80px;height: 80px;display: inli
 .industrieServeBody{padding:0 50px;}
 
 
+
+
 /*-------------------*/
 .indiaBestTemorary {padding:0 0 80px 0;}
-.indiaBestTemorary h4{ font-size: 30px; font-weight: 600; color: #000; margin-bottom: 30px;}
+.indiaBestTemorary h4{ font-size: 30px; font-weight: 600; color: #000; margin-bottom: 80px;}
 .indiaBestTemorary p{ font-size: 18px; font-weight: 400; color: #000; margin-bottom: 30px;}
 .listServiceBox {padding:0 0 80px 0}
 .whiteBg{background: #fff;}
@@ -313,10 +315,115 @@ bold;text-align: center;line-height: 80px;width: 80px;height: 80px;display: inli
 
 
 
+/*------Meet Our People-------*/
+.meetPeopleDetails {
+	background: #fff;
+	padding: 30px;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.meetPeopleTextBox {position: absolute;width: calc(100% - 58%);left: 46%;}
+
+
+.arrows {padding-left: 16%;}
+
+.meetPeopleDetails h6 { font-size:24px; color: #000; font-weight: 400; margin-bottom: 35px; line-height: 36px;}
+.meetPeopleDetails p.nameTitle { font-size:20px; color: #000; font-weight: 400; margin: 0;}
+.meetPeopleDetails p.dcrName{font-size: 14px; font-weight: 300; margin-bottom: 0;}
+
+.arrLeft {
+	background: #F2F2F6;
+	padding: 15px;
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.arrRight {
+	background: #FDCC00;
+	padding: 15px;
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.mt-8{margin-top: 5rem;}
+
+/*------------*/
+.recruitmentProcessBlog {padding:0 0 80px 0;}
+.recruitmentProcessBlog h4{ font-size: 30px; font-weight: 600; color: #000; margin-bottom: 30px;}
+.RecruiProcessBox{margin-bottom: 80px;}
+.RecruiProcessBox h3{font-size:80px; color: #232322; font-weight: 700; margin-bottom: 20px; }
+.RecruiProcessBox h5{font-size:30px; color: #232322; font-weight: 500; margin-bottom: 20px; }
+.RecruiProcessBox p{font-size:20px; color: #232322; font-weight: 400; margin-bottom: 20px;line-height: 26px;}
+
+.processPl{ padding-left: 50px;}
+.processPr{ padding-right: 50px;}
+
+.availablejobs  ul li span {background: #FDCC00;height: 2px;width: 40px;display: inline-block; margin-right: 5px;}
+.availablejobs ul li {color: #fff; font-size: 18px; font-weight: 400; padding: 16px 0;}
+.availablejobs ul li b{color: #fff; font-size: 24px; font-weight: 500; }
+
+
 /*--About------*/
 .serviceHighlights {padding: 100px 20px;width: calc(100% - 18%);margin-left: 18%;}
 .serviceHighlights h2{ color: #fff; font-weight: 900; font-size: 30px; margin-bottom: 10px;}
 .serviceHighlights p{ color: #fff; font-weight: 400; font-size: 16px; line-height: 27px; min-width: 310px; }
 .pr-0{padding-right: 0px;}
+.pt-8{padding-top: 8rem;}
+
+/*--About------*/
+.availableJobBg {padding: 100px 20px;width: calc(100% - 16%);margin-left: 16%;}
+.availableJobBg h2{ color: #fff; font-weight: 900; font-size: 30px; margin-bottom: 10px;}
+
+.availableJobBg h4{color: #fff; font-size: 75px; font-weight: bold; margin-bottom: 30px;}
+.availableJobBg h5{color: #FDCC00; font-size: 50px; font-weight: bold;}
+
+.availableSelectBoxs ul{ margin: 0; padding: 0;}
+.availableSelectBoxs ul li {
+	list-style: none;
+	float: left; padding: 10px 0;
+}
+.availableSelectBoxs ul li a {
+	background: #232322;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	 width: 120px;
+	display: inline-block;
+	text-align: center;font-weight: 500; margin-right: 10px; 
+}
+.availableSelectBoxs ul li a:hover, .availableSelectBoxs ul li.active a{
+	background: #FDCC00;
+	border-radius: 30px;
+	color: #000;
+	font-size: 16px;
+	border: 1px solid #FDCC00;
+	padding: 10px 20px;
+	width: 120px;
+	display: inline-block;
+	text-align: center; font-weight: 500;
+}
+
+.availableSelectBoxs {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 2rem;
+}
 
 
+.contactUs .form-control{ border: none !important; border-bottom: 1px solid #E1E1EE !important; color: #B6B6C9; font-size: 20px; padding: 20px 10px 30px 10px; background: none;}
+
+.contactDetails{border-top: 5px solid #000; padding: 60px 0 100px 0;}
+.contactDetails h3{font-size: 30px; color: #000; font-weight: 500; margin-bottom: 30px;}
+.contactDetails a{font-size: 16px; color: #000; font-weight: 400;}
+
+
+
+.letTalk h4{color: #fff; font-size: 80px; font-weight: 700; margin-bottom: 50px;}
+.letTalk h5{color: #FDCC00; font-size: 50px; font-weight: 700; margin-bottom: 30px;}

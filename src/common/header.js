@@ -63,20 +63,19 @@ function Header() {
       <Link className="nav-link" to="/"> Home </Link>
       <Link className="nav-link" to="/ItServices"> IT Services </Link>
       <Link className="nav-link" to="/staffing-services"> Staffing Services </Link>
-      <Link className="nav-link" to="/AboutUs"> About Us </Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+      <NavDropdown title="About Us" id="collasible-nav-dropdown">
+        <Link className="dropdown-item" to="/AboutUs">About Us</Link>
+        <Link className="dropdown-item" to="/career">Career</Link>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link eventKey={2} href="#memes" className="btn btn-dark">
+      <Link to="/contact-us" className="btn btn-dark">
          Contact Us
-      </Nav.Link>
+      </Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

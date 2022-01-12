@@ -12,6 +12,8 @@ import Layout from './common/layout';
 import ItServices from './components/it-services/it-services';
 import AboutUs from './components/about-us/about-us';
 import StaffingServices from './components/staffing-services/staffing-services';
+import ContactUs from './components/contact-us/contact-us';
+import Career from './components/about-us/career';
 
 
 
@@ -24,6 +26,8 @@ export default function App() {
       <Route path="/ItServices" element={<ItServices/>}/>
       <Route path="/AboutUs" element={<AboutUs/>}/>
       <Route path="/staffing-services" element={<StaffingServices/>}/>
+      <Route path="/contact-us" element={<ContactUs/>}/>
+      <Route path="/career" element={<Career/>}/>
     </Routes>
   </Layout>
   </Router>
