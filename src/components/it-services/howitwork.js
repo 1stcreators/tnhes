@@ -24,16 +24,16 @@ function Howitwork() {
           <div className="workDetailBox">
             <div className="workNumberBox"><span>1</span></div>
             <div className="workTextBox">
-              <h5>Discover</h5>
-            <p>Aampe offers easy integrations with several messaging providers. See documentation.</p>
+              <h5>Search</h5>
+            <p>We discover the best staff and services for you.</p>
             </div>            
           </div>
 
-          <div className="workDetailBox whireBgColor">
+          <div className="workDetailBox">
             <div className="workNumberBox"><span>2</span></div>
             <div className="workTextBox">
-              <h5>Strategy</h5>
-            <p>Aampe offers easy integrations with several messaging providers. See documentation.</p>
+              <h5>Plan</h5>
+            <p>We then make a plan to how to grow your business,</p>
             </div>            
           </div>
 
@@ -41,16 +41,16 @@ function Howitwork() {
           <div className="workDetailBox">
             <div className="workNumberBox"><span>3</span></div>
             <div className="workTextBox">
-              <h5>Execute</h5>
-            <p>Get 100's of messages in minutes with Aampe's content amplifier.</p>
+              <h5>Proceed</h5>
+            <p>We proceed to follow our strategies.</p>
             </div>            
           </div>
 
           <div className="workDetailBox">
             <div className="workNumberBox"><span>4</span></div>
             <div className="workTextBox">
-              <h5>Lunch</h5>
-            <p>Aampe automates message sending across channels and iterations based on personalization.</p>
+              <h5>Final launch</h5>
+            <p>Finally, we launch your brand to build your business.</p>
             </div>            
           </div>
 

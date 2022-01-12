@@ -18,7 +18,7 @@ function ItServices() {
        <div className="row">
          <div className="col-md-6">
             <h1>Push brands forward .</h1>
-            <p>Tnhes is the only solution that gives you true end-to-end, real-time visibility with predictive ETAs and real-time status for shipments
+            <p>We help you to push your brand forward. If you are looking to grow a business or build your brand, you need to start thinking about expanding beyond its present limits.
 
 </p>
 

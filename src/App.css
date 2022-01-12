@@ -86,3 +86,34 @@
   background-color: #232322;
 }
 .contactUs .form-control:focus { outline: none; box-shadow: none; }
+.whireBgColor, .workDetailBox {
+  padding: 20px 20px;
+}
+.workTextBox h5 {
+  margin-top: 10px;
+}
+.workNumberBox {
+  height: 80px;
+}
+
+.workDetailBox:hover span {
+    border-radius: 50%;
+    background: #FFFAE3;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    color: #FECD00;
+}
+.workDetailBox:hover {
+  background: #fff;
+  border-color: #fff;
+  display: flex;
+  border-radius: 20px;
+}
+.aboutUsImg { height: 100%; }
+.aboutUsImg img { height: 100%; }
